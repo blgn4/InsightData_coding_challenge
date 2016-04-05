@@ -18,8 +18,8 @@ Insight Data Engineering - Coding Challenge
 
 4. output is written into output.txt in tweet_output directory
 
-All the test cases are placed in insight_testsuite/tests/<Test_Cases>/tweet_input directory.
 
 ##To run test cases
+1. All the test cases are placed in insight_testsuite/tests/<Test_Cases>/tweet_input directory.
 
-execute ./run_test.sh
+2. execute ./run_test.sh
