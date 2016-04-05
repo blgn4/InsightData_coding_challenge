@@ -18,6 +18,7 @@ public class Average_Degree {
 			FileWriter fw =new FileWriter(output_file_path);
 			File f= new File(input_file_path);
 			GraphBuilder gb = new GraphBuilder();
+			@SuppressWarnings("resource")
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(f),"UTF-8"));
 			String line;
 			while((line=br.readLine())!=null)
@@ -43,7 +44,7 @@ public class Average_Degree {
 		try{
 			FileWriter fw =new FileWriter(output_file_path);
 			File f= new File(input_file_path);
-			
+			@SuppressWarnings("resource")
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(f),"UTF-8"));
 			String line;
 			while((line=br.readLine())!=null)
