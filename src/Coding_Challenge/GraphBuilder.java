@@ -91,7 +91,7 @@ public class GraphBuilder {
 	}
 
 	public void deleteFromWindow(Date d) {
-		Iterator iter = sliding_window_map.entrySet().iterator();
+		Iterator<Entry<Date, HashSet<HashSet<String>>>> iter = sliding_window_map.entrySet().iterator();
 		while(iter.hasNext())
 		{
 			Map.Entry<Date,HashSet<HashSet<String>>> entry = (Entry<Date, HashSet<HashSet<String>>>) iter.next();
